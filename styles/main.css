@@ -1,11 +1,21 @@
 body {
     background-image: url('../media/precious.jpg');
-    background-size: 110%;
+    background-size: cover;
     background-position: center;
-    background-position-y: 15%;
+    font-family: Lato;
+    color: white;
 }
 
 #content {
     text-align: center;
     padding-top: 25%;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
 }
